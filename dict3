@@ -1,0 +1,4 @@
+data={'eish':'hyderabad','sharath':'mumbai','akhil':'delhi'}
+def det(*data)
+	for i in range(len(data)):
+		print('I am ' + data[i] + ' from ' + data.key[i])
